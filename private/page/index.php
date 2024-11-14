@@ -10,6 +10,7 @@
     <main>
         <header>Hive</header>
         <section></section>
+        <section></section>
     </main>
 </body>
 </html>

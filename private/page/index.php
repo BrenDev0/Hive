@@ -9,8 +9,18 @@
 <body>
     <main>
         <header>Hive</header>
-        <section></section>
-        <section></section>
+        <div id="main-con">
+            <section id="toolbar">
+                <input type="text">
+                <div id="tags"></div>
+            </section>
+            <div id="content-con">
+                <?php include '../private/templates/nav.php';?>
+                <section id='content'>
+                    <!-- render content here -->
+                </section>
+            </div>
+        </div>
     </main>
 </body>
 </html>
